@@ -91,7 +91,7 @@
 
 - **ES6:**
 
-   1. Ejemplo:
+1. Ejemplo:
 
    ```
    computeAverageWithDestructuring(coordinates) 
@@ -99,7 +99,7 @@
    - Calcula el promedio de las propiedades `a`, `b` (con alias `e`), y `c`, con `c` por defecto en 5.
 
 
-   2. Ejemplo:
+2. Ejemplo:
 
    ```
    calcAverageWithDestructuringParam(coordinates)
@@ -107,7 +107,7 @@
    - Desestructura los parámetros `a`, `b` (alias `e`), y `c` en la función, y calcula el promedio,  con `c` por defecto en 7.
 
 
-   3. Ejemplo:
+3. Ejemplo:
 
    ```
    calcAverageWithDestructuringAF(coordinates)
