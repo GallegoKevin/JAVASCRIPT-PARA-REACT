@@ -177,20 +177,20 @@ export const subtract = (a, b) => a - b
 ```
 - Exporta una función de resta que calcula la resta de dos números a y b
 
-   ```
-   export const nameapi = 'localhost'
-   ```
-   - Exporta la variable nameapi que almacena la dirección del servidor.
+```
+export const nameapi = 'localhost'
+```
+- Exporta la variable nameapi que almacena la dirección del servidor.
 
-   ```
-   export const port = 8000;
-   ```
-   - Exporta una variable port que almacena el número de puerto del servidor.
+```
+export const port = 8000;
+```
+- Exporta una variable port que almacena el número de puerto del servidor.
 
-   ```
-   import { subtract, nameapi, port } from './05_parameterDefaults
-   ```
-   - Importa subtract, nameapi, y port desde el archivo especificado, para permitirnos usar la función  y acceder a las variables 'nameapi' y 'port'.
+```
+import { subtract, nameapi, port } from './05_parameterDefaults
+```
+- Importa subtract, nameapi, y port desde el archivo especificado, para permitirnos usar la función  y acceder a las variables 'nameapi' y 'port'.
 
 
 
