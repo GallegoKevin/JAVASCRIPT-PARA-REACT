@@ -96,17 +96,18 @@
    ```
    - Calcula el promedio de las propiedades `a`, `b` (con alias `e`), y `c`, con `c` por defecto en 5.
 
+
    ```
    calcAverageWithDestructuringParam(coordinates)
    ```
-   
    - Desestructura los parámetros `a`, `b` (alias `e`), y `c` en la función, y calcula el promedio,  con `c` por defecto en 7.
+
 
    ```
    calcAverageWithDestructuringAF(coordinates)
    ```
- 
    - Una función de flecha que desestructura los parámetros y calcula el promedio, con `c` por defecto en 7.
+
 
 
 ## 05_parameterDefaults.js:
