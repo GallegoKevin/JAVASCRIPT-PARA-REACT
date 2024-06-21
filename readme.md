@@ -27,11 +27,6 @@
 
    Se crea un componente LinkButton que acepta una clase, un texto y una dirección de enlace como props, y utiliza plantillas literales para establecer la clase del elemento.
 
-   Ejemplo: 
-
-   ```
-    LinkButton : El cual es similar al Button, pero renderiza un enlace en lugar de un botón.
-   ```
 
 
 ## 02_shorthandPropertyName.js 
@@ -44,9 +39,7 @@
    ```javascript
       console.log({  message: message, count: count, flags: flags});
    ```
-
-
-   - `Crea un objeto, donde las claves y los valores están explicitados. Las propiedades tienen el mismo nombre que las variables.`
+   Crea un objeto, donde las claves y los valores están explicitados. Las propiedades tienen el mismo nombre que las variables.`
 
 
 - **ES6**:
@@ -57,7 +50,7 @@
       console.log({ message, count, flags});
 
    ```
-   - `Crea un objeto utilizando propiedades de nombre corto.`
+   Crea un objeto utilizando propiedades de nombre corto.
       
 
 ## 03_arrowFunctions.js:
@@ -70,8 +63,7 @@
    Ejemplos: 
    getZero, multiplyByTwo, subtract 
    ```
-
-   - `Estas funciones realizan operaciones básicas de retorno de un valor, multiplicación y división.`
+   Estas funciones realizan operaciones básicas de retorno de un valor, multiplicación y división.
 
 
 - **ES6**:
@@ -82,18 +74,11 @@
    Ejemplos: 
    getZeroWithAF, multiplyByTwoWithAF, subtractWithAF
    ```
-
-   - `Estas funciones utilizan la sintaxis de las funciones de flecha.`
+   Estas funciones utilizan la sintaxis de las funciones de flecha.
 
 -  **React** :
 
-   Se crea un componente `MessageList` que acepta una prop messages y muestra una lista de elementos.
-
-   ```
-   Ejemplo:  MessageList
-   ```
-
-   - `Este componente es similar al TaskList, pero utiliza una lista de mensajes y la clave para el map es el índice.`
+   Se crea un componente `MessageList` que acepta una prop messages y muestra una lista de elementos. El cual es similar al TaskList, pero utiliza una lista de mensajes y la clave para el map es el índice.
 
 ## 04_destructuring.js:
 
