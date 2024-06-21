@@ -145,7 +145,7 @@
    ```
    function subReduce(a, b)
    ```
-   calcula la resta entre dos números a y b ; y retorna el resultado de la resta a - b .
+   - calcula la resta entre dos números a y b ; y retorna el resultado de la resta a - b .
 
    ```
    Variables: nameAPI y portNumber
