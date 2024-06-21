@@ -123,19 +123,22 @@
    multiply(x, y)
    ```
     
-   Verifica si `x` o `y` están undefined y les asigna un valor por defecto de 1. Luego, multiplica `x` por `y` utilizando `return x * y;`.
+   - Verifica si `x` o `y` están undefined y les asigna un valor por defecto de 1. Luego, multiplica `x` por `y` utilizando `return x * y;`.
 
 - **ES6:**
+
+1. Ejemplo:
 
    ```
    multiplyWithDefaults(x, y)
    ```
-   Establece valores por defecto para `x` e `y` en la declaración de la función y realiza la multiplicación igual que  `function multiply(x, y)`.
+   - Establece valores por defecto para `x` e `y` en la declaración de la función y realiza la multiplicación igual que  `function multiply(x, y)`.
 
+2. Ejemplo:
    ```
    multiplyWithDefaultsAF(x, y)
    ```
-   Se Utiliza la sintaxis de flecha para definir una función que establece valores por defecto y multiplica `x` por `y`.
+   - Se Utiliza la sintaxis de flecha para definir una función que establece valores por defecto y multiplica `x` por `y`.
 
 ## 06_esModules.js:
 
