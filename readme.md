@@ -39,7 +39,7 @@
    ```javascript
       console.log({  message: message, count: count, flags: flags});
    ```
-   Crea un objeto, donde las claves y los valores están explicitados. Las propiedades tienen el mismo nombre que las variables.`
+   - Crea un objeto, donde las claves y los valores están explicitados. Las propiedades tienen el mismo nombre que las variables.`
 
 
 - **ES6**:
@@ -50,7 +50,7 @@
       console.log({ message, count, flags});
 
    ```
-   Crea un objeto utilizando propiedades de nombre corto.
+   - Crea un objeto utilizando propiedades de nombre corto.
       
 
 ## 03_arrowFunctions.js:
@@ -63,7 +63,7 @@
    Ejemplos: 
    getZero, multiplyByTwo, subtract 
    ```
-   Estas funciones realizan operaciones básicas de retorno de un valor, multiplicación y división.
+   - Estas funciones realizan operaciones básicas de retorno de un valor, multiplicación y división.
 
 
 - **ES6**:
@@ -74,7 +74,7 @@
    Ejemplos: 
    getZeroWithAF, multiplyByTwoWithAF, subtractWithAF
    ```
-   Estas funciones utilizan la sintaxis de las funciones de flecha.
+   - Estas funciones utilizan la sintaxis de las funciones de flecha.
 
 -  **React** :
 
@@ -87,26 +87,26 @@
    computeAverage(coordinates)
    ```
     
-   Calcula el promedio de las propiedades `a`, `b`, y `c` del objeto, estableciendo `c` en 12 por defecto si no está presente.
+   - Calcula el promedio de las propiedades `a`, `b`, y `c` del objeto, estableciendo `c` en 12 por defecto si no está presente.
 
 - **ES6:**
 
    ```
    computeAverageWithDestructuring(coordinates) 
    ```
-   Calcula el promedio de las propiedades `a`, `b` (con alias `e`), y `c`, con `c` por defecto en 5.
+   - Calcula el promedio de las propiedades `a`, `b` (con alias `e`), y `c`, con `c` por defecto en 5.
 
    ```
    calcAverageWithDestructuringParam(coordinates)
    ```
    
-   Desestructura los parámetros `a`, `b` (alias `e`), y `c` en la función, y calcula el promedio,  con `c` por defecto en 7.
+   - Desestructura los parámetros `a`, `b` (alias `e`), y `c` en la función, y calcula el promedio,  con `c` por defecto en 7.
 
    ```
    calcAverageWithDestructuringAF(coordinates)
    ```
  
-   Una función de flecha que desestructura los parámetros y calcula el promedio, con `c` por defecto en 7.
+   - Una función de flecha que desestructura los parámetros y calcula el promedio, con `c` por defecto en 7.
 
 
 ## 05_parameterDefaults.js:
