@@ -151,47 +151,46 @@
    Variables: nameAPI y portNumber
    ```
 
-   nameAPI: Almacena la dirección del servidor API como 'localhost:8080'.
+   - nameAPI: Almacena la dirección del servidor API como 'localhost:8080'.
 
-   portNumber:  Almacena el número de puerto del servidor como 8000.
+   - portNumber:  Almacena el número de puerto del servidor como 8000.
 
    ```
    module.exports = {subReduce, nameAPI, portNumber};
    ```
 
-   Exporta subReduce, nameAPI, y  portNumber como un objeto, lo cual permite que otros archivos o módulos importen estos elementos para utilizarlos en sus propias operaciones.
+   - Exporta subReduce, nameAPI, y  portNumber como un objeto, lo cual permite que otros archivos o módulos importen estos elementos para utilizarlos en sus propias operaciones.
 
    ```
    const { subReduce } = require('./06_esModules');
    ```
 
-   Importa subReduce desde el archivo especificado en este caso "('./06_esModules')" utilizando desestructuración, lo cual permite el uso de la función subReduce en el archivo actual después de la importación.
+   - Importa subReduce desde el archivo especificado en este caso "('./06_esModules')" utilizando desestructuración, lo cual permite el uso de la función subReduce en el archivo actual después de la importación.
 
 
 
 
-**`ES6 : `**
+**ES6 :**
 
 ```
 export const subtract = (a, b) => a - b
 ```
-
-Exporta una función de resta que calcula la resta de dos números a y b
+- Exporta una función de resta que calcula la resta de dos números a y b
 
    ```
    export const nameapi = 'localhost'
    ```
-   Exporta la variable nameapi que almacena la dirección del servidor.
+   - Exporta la variable nameapi que almacena la dirección del servidor.
 
    ```
    export const port = 8000;
    ```
-   Exporta una variable port que almacena el número de puerto del servidor.
+   - Exporta una variable port que almacena el número de puerto del servidor.
 
    ```
    import { subtract, nameapi, port } from './05_parameterDefaults
    ```
-   Importa subtract, nameapi, y port desde el archivo especificado, para permitirnos usar la función  y acceder a las variables 'nameapi' y 'port'.
+   - Importa subtract, nameapi, y port desde el archivo especificado, para permitirnos usar la función  y acceder a las variables 'nameapi' y 'port'.
 
 
 
