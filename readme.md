@@ -39,7 +39,7 @@
    ```javascript
       console.log({  message: message, count: count, flags: flags});
    ```
-   - Crea un objeto, donde las claves y los valores están explicitados. Las propiedades tienen el mismo nombre que las variables.`
+   - Por ejemplo se crea un objeto, donde las claves y los valores están explicitados y las propiedades tienen el mismo nombre que las variables.`
 
 
 - **ES6**:
@@ -50,7 +50,7 @@
       console.log({ message, count, flags});
 
    ```
-   - Crea un objeto utilizando propiedades de nombre corto.
+   - Por ejemplo se crea un objeto utilizando propiedades de nombre corto.
       
 
 ## 03_arrowFunctions.js:
